@@ -1,0 +1,80 @@
+PODS:
+  - Alamofire (4.9.1)
+  - Differentiator (5.0.0)
+  - Reachability (3.2)
+  - Realm (10.21.0):
+    - Realm/Headers (= 10.21.0)
+  - Realm/Headers (10.21.0)
+  - RealmSwift (10.21.0):
+    - Realm (= 10.21.0)
+  - RxBlocking (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxDataSources (5.0.0):
+    - Differentiator (~> 5.0)
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - RxRealm (5.0.4):
+    - Realm (~> 10.21)
+    - RealmSwift (~> 10.21)
+    - RxCocoa (~> 6.1)
+    - RxSwift (~> 6.1)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - RxTest (6.5.0):
+    - RxSwift (= 6.5.0)
+  - Then (2.7.0)
+  - Unbox (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire (= 4.9.1)
+  - Reachability (= 3.2.0)
+  - RealmSwift (= 10.21.0)
+  - RxBlocking (= 6.5.0)
+  - RxCocoa (= 6.5.0)
+  - RxDataSources (= 5.0.0)
+  - RxRealm (= 5.0.4)
+  - RxSwift (= 6.5.0)
+  - RxTest (= 6.5.0)
+  - Then (= 2.7.0)
+  - Unbox (= 4.0.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Differentiator
+    - Reachability
+    - Realm
+    - RealmSwift
+    - RxBlocking
+    - RxCocoa
+    - RxDataSources
+    - RxRealm
+    - RxRelay
+    - RxSwift
+    - RxTest
+    - Then
+    - Unbox
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Differentiator: e8497ceab83c1b10ca233716d547b9af21b9344d
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  Realm: 55220cda83aabd773740d18518e05fdbe00b87cc
+  RealmSwift: 129dce1dd6b5d9194a37f568aaf32a6c10d1a803
+  RxBlocking: 04b5fd28bb5ea49f7d64b80db8bbfe50d9cc1c7d
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxDataSources: aa47cc1ed6c500fa0dfecac5c979b723542d79cf
+  RxRealm: 666c8785327fe2fff972a3093b35dc7055c1ca38
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  RxTest: eb2d23adefc5a5ebf5779c7792fa3edfe6ebcc17
+  Then: acfe0be7e98221c6204e12f8161459606d5d822d
+  Unbox: d2677af8fde59a30141e02981b11cb6a0e3b6bc5
+
+PODFILE CHECKSUM: e36cbb0fa966f43ed83afb2780acba78f4e24127
+
+COCOAPODS: 1.16.2

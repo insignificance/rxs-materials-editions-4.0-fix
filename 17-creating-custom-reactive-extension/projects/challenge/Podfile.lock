@@ -1,0 +1,80 @@
+PODS:
+  - CwlCatchException (2.2.1):
+    - CwlCatchExceptionSupport (~> 2.2.1)
+  - CwlCatchExceptionSupport (2.2.1)
+  - CwlMachBadInstructionHandler (2.2.2)
+  - CwlPosixPreconditionTesting (2.2.2)
+  - CwlPreconditionTesting (2.2.2):
+    - CwlCatchException (~> 2.2.1)
+    - CwlMachBadInstructionHandler (~> 2.2.2)
+    - CwlPosixPreconditionTesting (~> 2.2.2)
+  - Gifu (3.5.1)
+  - Nimble (13.8.0):
+    - CwlPreconditionTesting (~> 2.2.0)
+  - OHHTTPStubs/Core (9.1.0)
+  - OHHTTPStubs/Default (9.1.0):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (9.1.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (9.1.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (9.1.0)
+  - OHHTTPStubs/Swift (9.1.0):
+    - OHHTTPStubs/Default
+  - RxBlocking (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxNimble (6.3.1):
+    - RxNimble/RxBlocking (= 6.3.1)
+  - RxNimble/Core (6.3.1):
+    - Nimble (~> 13.0)
+    - RxSwift (~> 6.0)
+  - RxNimble/RxBlocking (6.3.1):
+    - RxBlocking
+    - RxNimble/Core
+  - RxSwift (6.5.0)
+  - SwiftyJSON (5.0.2)
+
+DEPENDENCIES:
+  - Gifu
+  - Nimble
+  - OHHTTPStubs/Swift
+  - RxBlocking
+  - RxNimble
+  - RxSwift (= 6.5.0)
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - CwlCatchException
+    - CwlCatchExceptionSupport
+    - CwlMachBadInstructionHandler
+    - CwlPosixPreconditionTesting
+    - CwlPreconditionTesting
+    - Gifu
+    - Nimble
+    - OHHTTPStubs
+    - RxBlocking
+    - RxNimble
+    - RxSwift
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  CwlCatchException: 7acc161b299a6de7f0a46a6ed741eae2c8b4d75a
+  CwlCatchExceptionSupport: 54ccab8d8c78907b57f99717fb19d4cc3bce02dc
+  CwlMachBadInstructionHandler: dae4fdd124d45c9910ac240287cc7b898f4502a1
+  CwlPosixPreconditionTesting: ecd095aa2129e740b44301c34571e8d85906fb88
+  CwlPreconditionTesting: 67a0047dd4de4382b93442c0e3f25207f984f35a
+  Gifu: 9f7e52357d41c0739709019eb80a71ad9aab1b6d
+  Nimble: 84982ec98b5dfc0ffe9ae2ed4c0b2fc57807c2d5
+  OHHTTPStubs: 90eac6d8f2c18317baeca36698523dc67c513831
+  RxBlocking: 04b5fd28bb5ea49f7d64b80db8bbfe50d9cc1c7d
+  RxNimble: bac9a18fdde597508356e704b34047f45f5b3ade
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SwiftyJSON: f5b1bf1cd8dd53cd25887ac0eabcfd92301c6a5a
+
+PODFILE CHECKSUM: fc0fccf7ad2fc54c3cbfc9ae5c28cbf5f28902ef
+
+COCOAPODS: 1.16.2

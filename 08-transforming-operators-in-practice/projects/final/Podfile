@@ -1,0 +1,9 @@
+use_frameworks!
+source 'https://cdn.cocoapods.org/'
+platform :ios, '15.6'
+
+target 'GitFeed' do
+  pod 'RxSwift', '6.5.0'
+  pod 'RxCocoa', '6.5.0'
+  pod 'Kingfisher', '5.14'
+end
