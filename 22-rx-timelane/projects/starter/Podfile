@@ -1,0 +1,9 @@
+use_frameworks!
+source 'https://cdn.cocoapods.org'
+platform :ios, '15.6'
+
+target 'Combinestagram' do
+    pod 'RxSwift', '6.5.0'
+    pod 'RxCocoa', '6.5.0'
+    pod 'RxTimelane', '3.0.2'
+end
