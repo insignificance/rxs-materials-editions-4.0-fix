@@ -34,3 +34,20 @@ import RxSwift
 /// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 /// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 /// THE SOFTWARE.
+example(of: "ignoreElements") {
+  // 1
+  let strikes = PublishSubject<String>()
+  let disposeBag = DisposeBag()
+  // 2
+  strikes
+    .ignoreElements()
+    .subscribe { _ in
+      print("You're out!")
+    }
+    .disposed(by: disposeBag)
+    strikes.onNext("X")
+    strikes.onNext("X")
+    strikes.onNext("X")
+//  strikes.onCompleted()
+}
+
