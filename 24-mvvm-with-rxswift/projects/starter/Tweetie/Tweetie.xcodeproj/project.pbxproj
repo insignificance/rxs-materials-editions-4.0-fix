@@ -1149,7 +1149,7 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Mac Tweetie/Assets/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.MacTweetie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
@@ -1167,7 +1167,7 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Mac Tweetie/Assets/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.MacTweetie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;

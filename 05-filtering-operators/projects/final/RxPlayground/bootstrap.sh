@@ -6,7 +6,7 @@
 ## so the playground loads as quickly as possible when the project is opened.
 
 ## RxSwift release
-RXSWIFT_VERSION="5.1.1"
+RXSWIFT_VERSION="6.5.0"
 
 ## Colors
 RED='\033[0;31m'

@@ -19,14 +19,9 @@ example(of: "PublishSubject") {
       deck.remove(at: randomIndex)
       cardsRemaining -= 1
     }
-    
     // Add code to update dealtHand here
-    
   }
-  
-  // Add subscription to dealtHand here
-  
-  
+  // Add subscription to dealtHand
   deal(3)
 }
 
