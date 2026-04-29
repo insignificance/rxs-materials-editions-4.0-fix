@@ -19,7 +19,7 @@ abstract_target 'TweetieAbstract' do
     end
     
     target 'MacTweetie' do
-        platform :osx, '10.14'
+        platform :osx, '11.0'
     end
     
     target 'TweetieTests' do

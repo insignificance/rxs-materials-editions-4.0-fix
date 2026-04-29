@@ -108,9 +108,13 @@ sed -i '' '/^.*C8D2C1501D4F3CD6006E2431.*$/d' Libs/RxSwift/Rx.xcodeproj/project.
 ## Remove code signing from project. See: https://github.com/ReactiveX/RxSwift/pull/1822
 sed -i '' '/^.*783T66X79Y;$/d' Libs/RxSwift/Rx.xcodeproj/project.pbxproj
 
+## Update deployment targets to Xcode 26 recommended versions
+info "📱 Updating deployment targets to Xcode 26 recommended versions ..."
+find Libs/RxSwift -name "*.pbxproj" -exec sed -i '' -e 's/IPHONEOS_DEPLOYMENT_TARGET = .*;/IPHONEOS_DEPLOYMENT_TARGET = 18.0;/g' -e 's/MACOSX_DEPLOYMENT_TARGET = .*;/MACOSX_DEPLOYMENT_TARGET = 15.0;/g' -e 's/TVOS_DEPLOYMENT_TARGET = .*;/TVOS_DEPLOYMENT_TARGET = 18.0;/g' -e 's/WATCHOS_DEPLOYMENT_TARGET = .*;/WATCHOS_DEPLOYMENT_TARGET = 11.0;/g' {} +
+
 ## Build RxSwift
 info "🚧 Building RxSwift ..."
-xcodebuild build -scheme RxSwift -workspace RxSwiftPlayground.xcworkspace -sdk iphonesimulator -destination "name=iPhone 8" &> build.log & BUILDPID=$!
+xcodebuild build -scheme RxSwift -workspace RxSwiftPlayground.xcworkspace -sdk iphonesimulator -destination "name=iPhone 17 Pro" &> build.log & BUILDPID=$!
 loader $BUILDPID
 
 info "🎁 Wrapping up ..."
@@ -214,5 +218,4 @@ cat > "$XCUSERDATA/xcschememanagement.plist" <<EOF
 EOF
 
 info "🎉 Let's get started!"
-open RxSwiftPlayground.xcworkspace
 
