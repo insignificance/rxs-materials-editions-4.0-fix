@@ -511,7 +511,7 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Testing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.Testing;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.Combinestagram999;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -527,7 +527,7 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Testing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.Testing;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.Combinestagram999;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -544,7 +544,7 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TestingTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.TestingTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.Combinestagram999;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -563,7 +563,7 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TestingTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.TestingTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.Combinestagram999;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

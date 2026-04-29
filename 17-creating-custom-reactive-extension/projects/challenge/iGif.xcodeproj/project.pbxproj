@@ -560,7 +560,7 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = iGif/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.iGif;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.Combinestagram999;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -574,7 +574,7 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = iGif/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.iGif;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.Combinestagram999;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -588,7 +588,7 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = iGifTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ch.bonto.iGifTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.Combinestagram999;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iGif.app/iGif";
@@ -603,7 +603,7 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = iGifTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ch.bonto.iGifTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.Combinestagram999;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iGif.app/iGif";

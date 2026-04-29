@@ -408,7 +408,7 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Combinestagram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.Combinestagram;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.Combinestagram999;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 5.0;
@@ -424,7 +424,7 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Combinestagram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.Combinestagram;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.Combinestagram999;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 5.0;

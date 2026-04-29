@@ -401,7 +401,7 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = OurPlanet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.OurPlanet;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.Combinestagram999;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -415,7 +415,7 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = OurPlanet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.OurPlanet;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.Combinestagram999;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};

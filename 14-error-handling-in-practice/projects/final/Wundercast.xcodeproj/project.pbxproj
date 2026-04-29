@@ -438,7 +438,7 @@
 				INFOPLIST_FILE = Wundercast/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.Wundercast;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.Combinestagram999;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -453,7 +453,7 @@
 				INFOPLIST_FILE = Wundercast/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.Wundercast;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.Combinestagram999;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
