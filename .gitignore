@@ -55,3 +55,7 @@ vendor/bundle/
 
 # Node
 node_modules/
+
+# Bootstrap generated
+Libs/
+build.log

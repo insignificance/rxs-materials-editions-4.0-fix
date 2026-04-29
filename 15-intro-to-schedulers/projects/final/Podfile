@@ -1,5 +1,5 @@
 use_frameworks!
-platform :osx, '10.14'
+platform :osx, '11.0'
 
 target 'Schedulers' do
   pod 'RxSwift', '6.5.0'
