@@ -174,19 +174,19 @@ example(of: "Single") {
 
       // 2
       guard let path = Bundle.main.path(forResource: name, ofType: "txt") else {
-        single(.error(FileReadError.fileNotFound))
+        single(.failure(FileReadError.fileNotFound))
         return disposable
       }
 
       // 3
       guard let data = FileManager.default.contents(atPath: path) else {
-        single(.error(FileReadError.unreadable))
+        single(.failure(FileReadError.unreadable))
         return disposable
       }
 
       // 4
       guard let contents = String(data: data, encoding: .utf8) else {
-        single(.error(FileReadError.encodingFailed))
+        single(.failure(FileReadError.encodingFailed))
         return disposable
       }
 
@@ -204,7 +204,7 @@ example(of: "Single") {
       switch $0 {
       case .success(let string):
         print(string)
-      case .error(let error):
+      case .failure(let error):
         print(error)
       }
     }
